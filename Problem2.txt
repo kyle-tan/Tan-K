@@ -20,5 +20,5 @@ void: BubbleSort(Array, N)
 		//If no swaps happend, the array is sorted
 		if(Swapped == False)
 			break
-		endIf 
+		endif 
 	endfor
