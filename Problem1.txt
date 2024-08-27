@@ -1,10 +1,10 @@
 integer: getAgeInRane(minAge, maxAge)
 	//Prompt for input within the valid range
 	while(true)
-	output"Enter your age(",minAge," to ",maxAge,"):"
+	input = "Enter your age(",minAge," to ",maxAge,"):"
 	age = input
 	//Check if the input age is a valid number
-	if ( age is a number )
+	if ( age is not a number )
 		output "Invalid input. Please enter a valid number."
 		continue
 	endif
